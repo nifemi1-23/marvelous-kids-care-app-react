@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
+import Home from './index';
 import About from './About';
 import Contact from './Contact';
 import aoc from './aoc';
