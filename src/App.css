@@ -72,6 +72,35 @@
   transform: rotate(0deg);
 }
 
+@media screen and (min-width: 340px) and (max-width: 370px){
+  #Togglebtn {
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 420px){
+  #Togglebtn {
+    margin-left: 8rem;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 450px){
+  #Togglebtn {
+    margin-left: 11rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 540px){
+  #Togglebtn {
+    margin-left: 17rem;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 920px) {
+  #Togglebtn {
+    margin-left: 32rem;
+  }
+}
+@media screen and (min-width: 920px) and (max-width: 1030px) {
+  
+}
+
 /*Nav style end*/
 
 /*Navbar Button Styles begin*/
@@ -1560,6 +1589,9 @@
 
 /* Media Query for About Section 1 */
 @media screen and (min-width: 340px) and (max-width: 370px) {
+  .Amain {
+    margin-bottom: -500px;
+  }
   .aboutBg {
     width: 100%;
     height: 250px;
@@ -1597,6 +1629,9 @@
   }
 }
 @media screen and (min-width: 375px) and (max-width: 480px) {
+  .Amain {
+    margin-bottom: -500px;
+  }
   .aboutBg {
     width: 100%;
     height: 250px;
@@ -1634,6 +1669,9 @@
   }
 }
 @media screen and (min-width: 500px) and (max-width: 540px) {
+  .Amain {
+    margin-bottom: -900px;
+  }
   .aboutBg {
     width: 100%;
     height: 450px;
@@ -1671,6 +1709,9 @@
   }
 }
 @media screen and (min-width: 760px) and (max-width: 920px) {
+  .Amain {
+    margin-bottom: -1000px;
+  }
   .aboutBg {
     width: 100%;
     height: 450px;
@@ -1708,6 +1749,10 @@
   }
 }
 @media screen and (min-width: 920px) and (max-width: 1030px) {
+  .Amain {
+    margin-top: 20px;
+    margin-bottom: -150px;
+  }
   .aboutBg {
     width: 100%;
     height: 450px;
@@ -1842,6 +1887,10 @@
     position: absolute;
     left: 0;
   }
+  .aWave {
+    position: relative;
+    top: -40px;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 480px) {
   .aSec2 {
@@ -1853,6 +1902,11 @@
   }
   .aRecImg {
     width: 100%;
+  }
+  .aRecImg2 {
+    position: relative;
+    left: 17px;
+    width: 95%;
   }
   .aBox5 {
     bottom: 490px;
@@ -1867,6 +1921,10 @@
     position: absolute;
     left: 0;
   }
+  .aWave {
+    position: relative;
+    top: -40px;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 540px) {
   .aSec2 {
@@ -1878,6 +1936,11 @@
   }
   .aRecImg {
     width: 100%;
+  }
+  .aRecImg2 {
+    position: relative;
+    left: 60px;
+    width: 90%;
   }
   .aBox5 {
     bottom: 600px;
@@ -1891,6 +1954,10 @@
   .aBox6 {
     position: absolute;
     left: 0;
+  }
+  .aWave {
+    position: relative;
+    top: -40px;
   }
 }
 @media screen and (min-width: 760px) and (max-width: 920px) {
@@ -1918,6 +1985,10 @@
     position: relative;
     left: 210px;
     width: 100%;
+  }
+  .aWave {
+    position: relative;
+    top: -40px;
   }
 }
 @media screen and (min-width: 920px) and (max-width: 1030px) {
@@ -1973,17 +2044,13 @@
 @media screen and (min-width: 340px) and (max-width: 370px) {
   .aSec3 {
     position: relative;
-    top: -100px;
-  }
-  .aFooter {
-    position: relative;
-    top: 2400px;
+    top: -500px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 480px) {
   .aSec3 {
     position: relative;
-    top: -100px;
+    top: -500px;
   }
   .aFooter {
     position: relative;
@@ -1993,7 +2060,7 @@
 @media screen and (min-width: 500px) and (max-width: 540px) {
   .aSec3 {
     position: relative;
-    top: -100px;
+    top: -900px;
   }
   .aFooter {
     position: relative;
@@ -2003,7 +2070,7 @@
 @media screen and (min-width: 760px) and (max-width: 920px) {
   .aSec3 {
     position: relative;
-    top: -100px;
+    top: -1000px;
   }
 }
 @media screen and (min-width: 920px) and (max-width: 1030px) {

@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function About() {
     return (
-        <main>
+        <main class="Amain">
             {/* <!-- About Section 1 --> */}
                 <section >
                     <div class="aBox" >

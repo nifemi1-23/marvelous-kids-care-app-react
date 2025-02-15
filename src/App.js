@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Link, Routes } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -9,7 +10,6 @@ import Space from './Space';
 import FAQ from './Faq';
 import Live from './Live';
 import More from './More';
-import { Route, Link, Routes } from 'react-router-dom';
 import Nav from './Nav';
 import Footer from './footer';
 
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
         <Nav />
       <Routes>
-        <Route exact path="/home" Component={Home} />
+        <Route exact path="/" Component={Home} />
         <Route exact path="/about" Component={About} />
         <Route exact path="/Contact" Component={Contact} />
         <Route exact path="/Join" Component={Join} />

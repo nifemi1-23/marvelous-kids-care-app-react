@@ -11,7 +11,7 @@ function Nav() {
           <div class="container-fluid">
               <div class="Flex">
               <a class="navbar-brand" href="#"><img src={logo} className="App-logo" alt="logo" /></a>
-              <button class="navbar-toggler collapsed d-lg-none flex-column justify-content-around ms-5" id="Togglebtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler collapsed d-lg-none flex-column justify-self-end justify-content-around" id="Togglebtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="toggler-icon top-bar"></span>
                   <span class="toggler-icon bottom-bar"></span>
                   <span class="line"></span>
@@ -20,7 +20,7 @@ function Nav() {
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav" id="nav_ul">
                       <li class="nav-item" id="nav_li">
-                          <Link class="nav-link" to="/home">Home</Link>
+                          <Link class="nav-link" to="/">Home</Link>
                       </li>
                       <li class="nav-item" id="nav_li">
                           <Link class="nav-link" to="/about">Why Us</Link>
